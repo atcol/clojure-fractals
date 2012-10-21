@@ -1,13 +1,7 @@
-# mandelbrot
+# Clojure Fractals
 
-FIXME: write description
+Implementations of various fractals for fun.
 
-## Usage
-
-FIXME: write
-
-## License
-
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 Alex Collins
 
 Distributed under the Eclipse Public License, the same as Clojure.
