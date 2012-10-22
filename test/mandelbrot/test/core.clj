@@ -23,10 +23,3 @@
 
 (deftest test-abs
   (is (= 2.23606797749979 (abs 1 2)) "sqrt(1² + 2²) = 2.236..."))
-
-(deftest test-build-invalid-input
-  (is (empty? (build [0 0] [0 0])))
-  (is (empty? (build [1 0] [0 0]))))
-
-(deftest test-build-valid-input
-  (not (empty? (build [0.0 0.0] [10.0 10.0]))))
