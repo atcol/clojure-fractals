@@ -1,8 +1,6 @@
 (ns mandelbrot.core
   (:gen-class))
 
-(def MAX_ITER 25)
-
 (defn abs [a b] 
   "Returns sqrt(a² + b²)"
   (Math/sqrt (+ (* a a) (* b b))))
